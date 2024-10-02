@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css"></style>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/universal.css">
+    <title>EigenEigen | Problem Generator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="generator">
+            <select type="dropdown" class="problem-type">
+                <option value="" selected disabled hidden>Category</option>
+                <option value="vec-add">Vector Addition</option>
+                <option value="mat-vec-pro">Matrix-Vector Product</option>
+            </select>
+            <select type="dropdown" class="problem-amount">
+                <option value="" selected disabled hidden>Amount</option>
+            </select>
+            <div class="generate-button">
+                <p id="generate-text">GENERATE</p>
+            </div>
+        </div>
+        <div class="problem-list">
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
